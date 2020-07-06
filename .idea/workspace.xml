@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="114ebdc6-b8a5-4cee-b992-c2f67bbddc8f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Musicplayer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Musicplayer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/iphone_design.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/iphone_design.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +98,7 @@
       <workItem from="1593927951881" duration="17218000" />
       <workItem from="1593953526348" duration="25760000" />
       <workItem from="1594002730691" duration="1379000" />
-      <workItem from="1594005828672" duration="1689000" />
+      <workItem from="1594005828672" duration="3109000" />
     </task>
     <task id="LOCAL-00001" summary="final">
       <created>1594005549890</created>
