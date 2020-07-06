@@ -59,7 +59,7 @@ const Musicplayer = () => {
     // let currentduration=document.getElementById("current_duration")
 
     document.body.onkeyup= function(e){
-        if(e.key==32){
+        if(e.keyCode==32){
             setIsplay(!isplay)
         }
     }

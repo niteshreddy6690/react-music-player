@@ -2,39 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="114ebdc6-b8a5-4cee-b992-c2f67bbddc8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Musicplayer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/Chhichhore.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/Dia-2020-250x250.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/Hymn For The Weekend.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/Neeli Neeli Aakasam.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/Parayuvaan.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/Sama Teri Kasam.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/Sanam_Teri_Kasam_2016.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/Treat You Better.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/butta.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/curtis-potvin-r66MoMi5hgk-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/friends.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/rahul.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sounds/01 - Sanam Teri Kasam (Title Song).mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sounds/Butta Bomma-Naasongs.fm.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sounds/Coldplay - Hymn For The Weekend.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sounds/Friends.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sounds/Khairiyat Sad - Chhichhore (SongsMp3.Com).mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sounds/Maroon 5 - Memories.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sounds/Parayuvaan_1.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sounds/Shawn Mendes - Treat You Better.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sounds/[iSongs.info] 01 - Neeli Neeli Aakasam.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sounds/[iSongs.info] 01 - Rocky Bhai.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sounds/[iSongs.info] 01 - Soul Of Dia.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iphone_design.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Musicplayer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Musicplayer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/iphone_design.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/iphone_design.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +46,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -128,12 +99,25 @@
       <workItem from="1593865740325" duration="2619000" />
       <workItem from="1593927951881" duration="17218000" />
       <workItem from="1593953526348" duration="25760000" />
-      <workItem from="1594002730691" duration="1228000" />
+      <workItem from="1594002730691" duration="1379000" />
+      <workItem from="1594005828672" duration="1689000" />
     </task>
+    <task id="LOCAL-00001" summary="final">
+      <created>1594005549890</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594005549890</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="final" />
+    <option name="LAST_COMMIT_MESSAGE" value="final" />
   </component>
   <component name="WindowStateProjectService">
     <state x="395" y="134" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593985319418">
@@ -141,6 +125,19 @@
     </state>
     <state x="395" y="134" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.821@0.23.1440.821" timestamp="1593984284402" />
     <state x="395" y="134" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.822@0.23.1440.822" timestamp="1593985319418" />
+    <state x="242" y="23" key="CommitChangelistDialog2" timestamp="1594005549550">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state x="242" y="23" key="CommitChangelistDialog2/0.23.1440.814@0.23.1440.814" timestamp="1594005549550" />
+    <state x="120" y="23" key="SettingsEditor" timestamp="1594023511453">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="120" y="23" key="SettingsEditor/0.23.1440.814@0.23.1440.814" timestamp="1594006590766" />
+    <state x="120" y="23" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1594023511453" />
+    <state x="220" y="92" key="Vcs.Push.Dialog.v2" timestamp="1594005574031">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state x="220" y="92" key="Vcs.Push.Dialog.v2/0.23.1440.814@0.23.1440.814" timestamp="1594005574031" />
     <state x="371" y="23" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1593953859624">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
