@@ -1,0 +1,276 @@
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+
+body {
+    /*!*background-image: url("https://assets.codepen.io/285131/colorbg.jpg");*!*/
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
+    background-color: #303233;
+}
+
+.iphone {
+    box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px #999, 0 0 30px 0px rgba(0, 0, 0, 0.7);
+    border: 5px solid #d9dbdc;
+    background: #f2f2f2;
+    padding: 15px;
+    border-radius: 50px;
+    height: 770px;
+    width: 370px;
+    position: relative;
+    margin: 30px auto;
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+}
+
+.iphone-top {
+    padding: 5px 110px 40px;
+    position: relative;
+}
+.iphone-top .speaker {
+    display: block;
+    width: 70px;
+    height: 6px;
+    margin: 0 auto;
+    border-radius: 6px;
+    background: #292728;
+}
+.iphone-top .camera {
+    display: block;
+    margin: 0 auto;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin-bottom: 13px;
+    background: #333;
+}
+.iphone-top .sensor {
+    display: block;
+    width: 15px;
+    height: 15px;
+    float: left;
+    background: #333;
+    margin-top: -5px;
+    border-radius: 50%;
+}
+
+.top-bar, .bottom-bar {
+    display: block;
+    width: 370px;
+    height: 15px;
+    border-left: 5px solid #BBB;
+    border-right: 5px solid #BBB;
+    position: absolute;
+    left: -5px;
+}
+
+.top-bar {
+    top: 65px;
+}
+
+.bottom-bar {
+    bottom: 65px;
+}
+
+.iphone-screen {
+    position: relative;
+    background: #171717;
+    border: 1px solid #fff;
+    height: 590px;
+    width: 330px;
+    margin: 0 auto;
+    border: 0px solid rgba(0, 0, 0, 0.9);
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.buttons .on-off, .buttons .up, .buttons .down, .buttons .sleep {
+    display: block;
+    background: #CCC;
+    position: absolute;
+    border-radius: 2px 0px 0px 2px;
+}
+.buttons .on-off {
+    height: 40px;
+    width: 3px;
+    top: 100px;
+    left: -8px;
+}
+.buttons .up, .buttons .down, .buttons .sleep {
+    height: 60px;
+    width: 5px;
+    left: -10px;
+}
+.buttons .up {
+    top: 170px;
+}
+.buttons .down {
+    top: 250px;
+}
+.buttons .sleep {
+    left: auto;
+    right: -10px;
+    top: 170px;
+    border-radius: 0px 2px 2px 0px;
+}
+
+.iphone-bottom {
+    padding: 8px 0 0;
+}
+.iphone-bottom span {
+    display: block;
+    margin: 0 auto;
+    width: 61px;
+    height: 61px;
+    background: #ccc;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #303233 0%, #b5b7b9 50%, #f0f2f2 69%, #303233 100%);
+    position: relative;
+}
+.iphone-bottom span:after {
+    content: "";
+    display: block;
+    width: 55px;
+    height: 55px;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: 3.2px;
+    top: 3.2px;
+}
+
+
+.background{
+    position: absolute;
+    top: 50px;
+    margin:40px;
+    width: 250px;
+    height: 250px;
+    /*background-color: #61dafb;*/
+    background-image: none;
+    background-size: 250px 250px;
+    background-repeat: no-repeat;
+    background-color: #797D7F;
+    transition: background-image 0.25s ease
+}
+.icons_wrap{
+    position: absolute;
+    width: 250px;
+    bottom: 90px;
+    left: 45px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.seekbar_wrap{
+    position: absolute;
+    bottom: 160px;
+    left: 20px;
+    display: block;
+    margin:5px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+
+}
+ div .duration{
+    font-size: 12px;
+    color: lightgray;
+    padding: 5px;
+    margin: 2px;
+    width: 30px;
+    height: 15px;
+    /*background-color: yellow;*/
+}
+.icon{
+    color:white;
+}
+.icon:hover{
+    color:  #999999;
+}
+
+.seekbar {
+    top: 12px;
+    position: relative;
+    width: 200px;
+    height: 2px;
+    cursor: pointer;
+
+}
+input[type=checkbox]{
+    height: 0;
+    width: 0;
+    visibility: hidden;
+    display: inline;
+}
+label {
+    cursor: pointer;
+    width: 30px;
+    height: 8px;
+    background: #797D7F  ;
+    display: block;
+    border-radius: 100px;
+    position: absolute;
+    top: 25px;
+    /*right: 4px;*/
+    left: 4px;
+    margin: 5px;
+}
+
+label:after {
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: -3px;
+    width: 15px;
+    height: 15px;
+    background: #D0D3D4  ;
+    border-radius: 90px;
+    transition: 0.3s;
+}
+input:checked + label {
+    background: #797D7F ;
+}
+input:checked + label:after {
+    left: calc(100%);
+    transform: translateX(-100%);
+    background: #25C708;
+}
+span{
+    font-size: 15px;
+    color: white;
+}
+.autoplay_txt{
+    position: absolute;
+    top: 5px;
+    left: 4px;
+    margin: 1px;
+}
+.bottom_icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    bottom: 25px;
+    width: 330px;
+}
+._icons{
+    font-size: 20px;
+    color: white;
+}
+.bottom_icons_heart{
+    font-size: 20px;
+    color: red;
+}
+.heart{
+    font-size: 18px;
+    color: red;
+    background-color: red;
+}
+.song_names{
+    font-size: 20px;
+    color: #d9dbdc;
+    position: absolute;
+    top:360px;
+    left:10px
+}
