@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="114ebdc6-b8a5-4cee-b992-c2f67bbddc8f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/iphone_design.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/iphone_design.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -98,7 +102,9 @@
       <workItem from="1593927951881" duration="17218000" />
       <workItem from="1593953526348" duration="25760000" />
       <workItem from="1594002730691" duration="1379000" />
-      <workItem from="1594005828672" duration="3109000" />
+      <workItem from="1594005828672" duration="4384000" />
+      <workItem from="1594048636233" duration="1529000" />
+      <workItem from="1594093565631" duration="1022000" />
     </task>
     <task id="LOCAL-00001" summary="final">
       <created>1594005549890</created>
@@ -118,9 +124,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="final" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="395" y="134" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593985319418">
-      <screen x="0" y="23" width="1440" height="822" />
+    <state x="395" y="122" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594132767765">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="395" y="122" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1594132767765" />
     <state x="395" y="134" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.821@0.23.1440.821" timestamp="1593984284402" />
     <state x="395" y="134" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.822@0.23.1440.822" timestamp="1593985319418" />
     <state x="242" y="23" key="CommitChangelistDialog2" timestamp="1594005549550">
